@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devchallenge-1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+  <style>
+    .error {
+      color: #333;
+      font-family: Inconsolata;
+      font-size: 24px;
+    }
+
+    .title {
+      margin: 20px 0;
+      color: #333;
+      font-family: Space Mono;
+      font-size: 64px;
+    }
+
+    .des {
+      margin: 20px 0;
+      color: var(--gray-2, #4F4F4F);
+      font-family: Space Mono;
+      font-size: 24px;
+      width: 300px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px;
+      justify-content: space-around;
+    }
+
+    .image {
+      width: 400px;
+    }
+
+    .btn {
+      border: none;
+      padding: 15px;
+      background-color: black;
+      color: white;
+    }
+    .footer{
+      text-align: center;
+    }
+
+    @media screen and (max-width: 576px) {
+      .container {
+        flex-direction: column;
+        width: inherit;
+      }
+
+      .image,
+      .details {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <p class="error">404 not found</p>
+  <div class="container">
+    <div class="image"><img src="../404-not-found-master/Scarecrow.png" alt="" class="image"></div>
+    <div class="details">
+      <h1 class="title">I have a bad news for you</h1>
+      <p class="des">The page you are looking for might be removed or is temporarily unavailable</p>
+      <button class="btn">BACK TO HOMEPAGE</button>
+    </div>
+  </div>
+</body>
+<footer>
+  <p class="footer">created by username - devChallenges.io</p>
+</footer>
+
+</html>
